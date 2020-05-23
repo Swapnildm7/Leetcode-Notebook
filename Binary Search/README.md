@@ -1,14 +1,3 @@
-<link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
-<style>
-  * {
-    font-family: 'Abel', sans-serif;
-    text-decoration: none;
-  }
-
-  p {
-    line-height: 1.8;
-  }
-</style>
 <h1>Binary Search Variants</h1>
 <h3>Template 1</h3>
 <pre>
@@ -32,7 +21,7 @@ int binarySearch(vector<int> &nums, int target)
     return -1;
 }   </code>
     </pre>
-<h3>Template #1 is the most basic and elementary form of Binary Search. It is the standard Binary Search Template that most high schools or universities use when they first teach students computer science. Template #1 is used to search for an element or condition which can be determined by accessing a single index in the array.</h3>
+<p>Template one is the most basic and elementary form of Binary Search. It is the standard Binary Search Template that most high schools or universities use when they first teach students computer science. It is used to search for an element or condition which can be determined by accessing a single index in the array.</p>
 
 <h4>Key Attributes:</h4>
 <ol>
@@ -72,7 +61,7 @@ int binarySearch(vector<int> &nums, int target)
 }
    </code>
     </pre>
-<h3>Template #2 is an advanced form of Binary Search. It is used to search for an element or condition which requires accessing the current index and its immediate right neighbor's index in the array.</h3>
+<p>Template two is an advanced form of Binary Search. It is used to search for an element or condition which requires accessing the current index and its immediate right neighbor's index in the array.</p>
 
 <h4>Key Attributes:</h4>
 <ol>
@@ -116,7 +105,7 @@ int binarySearch(vector<int> &nums, int target)
 }
    </code>
     </pre>
-<h3>Template #3 is another unique form of Binary Search. It is used to search for an element or condition which requires accessing the current index and its immediate left and right neighbor's index in the array.</h3>
+<p>Template three is another unique form of Binary Search. It is used to search for an element or condition which requires accessing the current index and its immediate left and right neighbor's index in the array.</p>
 
 <h4>Key Attributes:</h4>
 <ol>
@@ -134,4 +123,4 @@ int binarySearch(vector<int> &nums, int target)
   <li>Searching Left: right = mid</li>
   <li>Searching Right: left = mid</li>
 </ul>
-<caption>Source: <a href="https://leetcode.com/explore/learn/card/binary-search">Leetcode</a></caption>
+<caption>Source: <a href="https://leetcode.com/explore/learn/card/binary-search" style="text-decoration:none;">Leetcode</a></caption>
