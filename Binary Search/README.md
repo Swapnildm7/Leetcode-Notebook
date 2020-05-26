@@ -1,6 +1,6 @@
 # Binary Search Variants
 
-> ### Template 1:
+>  ### Template 1:
 
 ```CPP
 int binarySearch(vector<int> &nums, int target)
@@ -24,13 +24,13 @@ int binarySearch(vector<int> &nums, int target)
 ```
 *It is the most basic and elementary form of Binary Search. It is used to search for an element or condition which can be determined by accessing a single index in the array.* 
   
-> ###Key Attributes:
+> ### Key Attributes:
 
   1. *Most basic and elementary form of Binary Search*
   1. *Search Condition can be determined without comparing to the element's neighbors (or use specific elements around it)*
   1. *No post-processing required because at each step, you are checking to see if the element has been found. If you reach the end, then you know the element is not found.*
 
-> ###Distinguishing Syntax:
+> ### Distinguishing Syntax:
 
   * *Initial Condition: left = 0, right = length-1*
   * *Termination: left > right*
@@ -38,7 +38,7 @@ int binarySearch(vector<int> &nums, int target)
   * *Searching Right: left = mid+1*
 ---
 
-> ###Template 2:
+> ### Template 2:
 
 ```CPP
 int binarySearch(vector<int> &nums, int target)
@@ -65,7 +65,7 @@ int binarySearch(vector<int> &nums, int target)
 
 *It is an advanced form of Binary Search. It is used to search for an element or condition which requires accessing the current index and its immediate right neighbor's index in the array.*
 
-> ###Key Attributes:
+> ### Key Attributes:
 
   1. *An advanced way to implement Binary Search.*
   1. *Search Condition needs to access element's immediate right neighbor.*
@@ -73,7 +73,7 @@ int binarySearch(vector<int> &nums, int target)
   1. *Gurantees Search Space is at least 2 in size at each step.*
   1. *Post-processing required. Loop/Recursion ends when you have 1 element left. Need to assess if the remaining element meets the condition.*
 
-> ###Distinguishing Syntax:
+> ### Distinguishing Syntax:
 
   * *Initial Condition: left = 0, right = length*
   * *Termination: left == right*
@@ -81,7 +81,7 @@ int binarySearch(vector<int> &nums, int target)
   * *Searching Right: left = mid+1*
 ---
 
-> ###Template 3:
+> ### Template 3:
 
 ```CPP
 int binarySearch(vector<int> &nums, int target)
@@ -109,7 +109,7 @@ int binarySearch(vector<int> &nums, int target)
 
 *It is another unique form of Binary Search. It is used to search for an element or condition which requires accessing the current index and its immediate left and right neighbor's index in the array.*
 
-> ###Key Attributes:
+> ### Key Attributes:
 
 1. *An alternative way to implement Binary Search.*
 1. *Search Condition needs to access element's immediate left and right neighbors.*
@@ -117,7 +117,7 @@ int binarySearch(vector<int> &nums, int target)
 1. *Gurantees Search Space is at least 3 in size at each step.*
 1. *Post-processing required. Loop/Recursion ends when you have 2 elements left. Need to assess if the remaining elements meet the condition.*
 
-> ###Distinguishing Syntax:
+> ### Distinguishing Syntax:
 
   * *Initial Condition: left = 0, right = length-1*
   * *Termination: left+1 == right*
