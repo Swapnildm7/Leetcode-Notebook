@@ -123,5 +123,5 @@ int binarySearch(vector<int> &nums, int target)
   * *Termination: left+1 == right*
   * *Searching Left: right = mid*
   * *Searching Right: left = mid*
-
+---
 <caption>Source: <a href="https://leetcode.com/explore/learn/card/binary-search" target="_blank">Leetcode</a></caption>
